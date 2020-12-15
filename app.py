@@ -30,7 +30,7 @@ def hjfhjfhjf():
       
       server=smtplib.SMTP_SSL('smtp.gmail.com',465)
       server.login('faketestcodeheroku@gmail.com','balram5525')
-      TEXT='Hello {0} {1},\nthank you for register in our  college Ims ghaziabad\n our faculty will call you for the {2} course\n Thank you '.format(Name,Sur_Name,course)
+      TEXT='Hello {0},\nthank you for register in our  college Ims ghaziabad\n our faculty will call you for the {2} course\n Thank you '.format(Name,course)
       SUBJECT = "Acknowledgement"
       message = 'Subject: {}\n\n{}'.format(SUBJECT, TEXT)
 
